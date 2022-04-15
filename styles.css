@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  /* background-color: #283149; */
+  background-image: url(/images/20220414-220801.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-size: 100%;
+}
+.cont {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100vw;
+  background-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-size: 5rem;
+  color: #dbedf3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #da0463;
+}
+
+footer {
+  color: #dbedf3;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.w {
+  background-image: url(/images/tom1.png);
+}
+
+.a {
+  background-image: url(/images/tom2.png);
+}
+
+.s {
+  background-image: url(/images/tom3.png);
+}
+
+.d {
+  background-image: url(/images/tom4.png);
+}
+
+.j {
+  background-image: url(/images/snare.png);
+}
+
+.k {
+  background-image: url(/images/crash.png);
+}
+
+.l {
+  background-image: url(/images/kick.png);
+}
+
+.set {
+  display: flex;
+  justify-content: center;
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+button {
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 4rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: goldenrod;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+@media (max-width: 1154px) {
+  body {
+    background-size: cover;
+  }
+  h1 {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .set {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+  .inner-cont {
+  }
+  h1 {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+
+  .set {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+  }
+}
+footer{
+  background-color: black;
+}
+/* 
+@media (max-width: 400px) {
+  body {
+    background-size: cover;
+  }
+  .inner-cont {
+  }
+  h1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+  }
+} */
