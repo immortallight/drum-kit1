@@ -52,7 +52,7 @@ switch (key) {
        break;
    default: console.log(buttonInnerHTML)
 
-}
+ }
 }
 
 function buttonAnimation(currentKey){
@@ -62,4 +62,4 @@ function buttonAnimation(currentKey){
     setTimeout(function(){
         activeButton.classList.remove("pressed");
     }, 100); 
-}
+  }
